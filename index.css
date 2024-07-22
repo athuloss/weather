@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: azure;
+}
+.cards{
+    width: 90%;
+    max-width: 300px;
+    background:linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+ .icon{
+    margin-left: 100px;
+    position: absolute;
+ top: 156px;
+ color: black;
+ margin-top: 8px;
+} 
+.search{
+    width: 100%;
+    align-items: center;
+}
+.search input{
+    width: 260px;
+    padding-left: 20px;
+    height:70px ;
+    border-radius: 50px;
+    outline:none;
+    border: none;
+}
+.pic h1{
+    font-size:50px;
+    color: black;
+}
+.pic h2{
+    font-size:20px;
+    color: black;
+}
+.pic img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.humdity img{
+    width: 20px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.wind img{
+  
+    width: 20px;
+    height: 30px;
+    object-fit: contain;
+}
+
+
+.details{
+  display: flex;
+    justify-content: space-between;
+}
+
+
+.type{
+    margin-top:
+        20px;
+    color: rgb(255, 0, 0);
+    display: none;
+
+}
+
+
+
+
