@@ -70,12 +70,21 @@ body{
 }
 
 
-.type{
-    margin-top:
-        20px;
+.type{   
+    display: flex;
+    flex-direction: column;
     color: rgb(255, 0, 0);
     display: none;
+    margin-top: 20px;
 
+}
+.storm{
+   
+    flex-direction: column;
+    display: flex;
+}
+.storm{
+    display: none;
 }
 
 

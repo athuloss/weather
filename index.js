@@ -5,6 +5,12 @@ async function checkWeather(city) {
     var response = await fetch(`${apiUrl}${city}&appid=${apikey}`);
     if(response.status==404){
         document.querySelector('.type').style.display="flex";
+        document.querySelector('.storm').style.display = "none";
+    }
+    else{
+        document.querySelector('.type').style.display="none";
+        document.querySelector('.storm').style.display = "flex";
+    
     }
   
     var data = await response.json();
@@ -30,5 +36,5 @@ async function checkWeather(city) {
 
 function bro() {
     var search = document.querySelector('.search input').value;
-    checkWeather(search);
+  checkWeather(search)
 }
